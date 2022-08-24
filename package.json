@@ -1,0 +1,22 @@
+{
+  "name": "voll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "jest"
+  },
+  "author": "cesar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "enable": "^3.4.0",
+    "express": "^4.18.1",
+    "jest": "^28.1.3",
+    "supertest": "^6.2.4",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.6.0"
+  }
+}
