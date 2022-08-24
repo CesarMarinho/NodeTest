@@ -24,5 +24,3 @@ function aplicarJuros(capital, periodo, taxa){
 
     return capitalTotal.toFixed(3);
 }
-
-//module.exports = {aplicarJuros}

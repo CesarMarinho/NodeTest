@@ -8,9 +8,4 @@ app.listen(3000, () => {
     console.log("Servidor inicializado!");
 });
 
-//export {app};
-// server.listen(3000, () =>{
-//     console.log("Servidor inicializado!");
-// });
-
 module.exports = app;
