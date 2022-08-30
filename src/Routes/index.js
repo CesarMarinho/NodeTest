@@ -1,6 +1,6 @@
-const JurosRoutes = require('./JurosRoutes');
+const InterestRoutes = require('./InterestRoutes');
 module.exports = (app) => {
-   JurosRoutes(app)
+   InterestRoutes(app)
 }
 
 

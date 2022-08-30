@@ -5,7 +5,7 @@ require('./src/Routes/index')(app);
 app.use(cors());
 app.use(express.json());
 app.listen(3000, () => {
-    console.log("Servidor inicializado!");
+    console.log("Server started!");
 });
 
 module.exports = app;
